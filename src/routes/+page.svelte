@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="card w-96 border border-secondary">
+	<div class="card-body">
+		<div class="avatar">
+			<div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+				<img src="/images/haven.png" alt="profile" />
+			</div>
+		</div>
+	</div>
+</div>
