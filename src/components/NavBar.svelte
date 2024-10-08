@@ -4,6 +4,10 @@
 	import GitLab from 'phosphor-svelte/lib/GitlabLogo'
 	import { toggleMode } from 'mode-watcher';
 	import { Button } from '$lib/components/ui/button/index.js';
+
+	function redirectGithub() {
+		window.open("https://www.github.com/ashzero2", "_blank")
+	}
 </script>
 
 <nav class="flex border-b items-center justify-between">
@@ -23,7 +27,7 @@
 			</Button>
 		</div>
 		<div class="mr-3">
-			<Button size="icon" variant="ghost">
+			<Button size="icon" variant="ghost" on:click={redirectGithub}>
 				<GitLab size={22}/>
 			</Button>
 		</div>
