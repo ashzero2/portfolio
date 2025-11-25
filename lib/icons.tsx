@@ -64,6 +64,30 @@ function EmberJS({ className }: { className?: string }) {
   )
 }
 
+function Linux({ className }: { className?: string }) {
+  return (
+    <svg className={className} xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><title>archlinux</title><path fill="#1793D1" d="M127.976 0c-11.397 27.936-18.27 46.21-30.959 73.315c7.78 8.245 17.329 17.846 32.837 28.69c-16.673-6.859-28.045-13.746-36.544-20.892C77.07 114.992 51.63 163.25 0 256c40.579-23.422 72.035-37.863 101.35-43.373a74.3 74.3 0 0 1-1.926-17.378l.049-1.3c.644-25.992 14.168-45.98 30.188-44.624c16.02 1.357 28.473 23.542 27.83 49.535c-.122 4.89-.674 9.596-1.638 13.96C184.851 218.49 215.97 232.894 256 256c-7.893-14.529-14.938-27.626-21.666-40.1c-10.598-8.212-21.652-18.9-44.2-30.47c15.498 4.025 26.595 8.67 35.244 13.863C156.973 71.958 151.434 55.038 127.976 0"/></svg>
+  )
+}
+
+function Git({ className }: { className?: string }) {
+  return (
+    <svg className={className} xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><title>git</title><path fill="#e64a19" d="M13.172 2.828L11.78 4.22l1.91 1.91l2 2A2.986 2.986 0 0 1 20 10.81a3.25 3.25 0 0 1-.31 1.31l2.06 2a2.68 2.68 0 0 1 3.37.57a2.86 2.86 0 0 1 .88 2.117a3.02 3.02 0 0 1-.856 2.109A2.9 2.9 0 0 1 23 19.81a2.93 2.93 0 0 1-2.13-.87a2.694 2.694 0 0 1-.56-3.38l-2-2.06a3 3 0 0 1-.31.12V20a3 3 0 0 1 1.44 1.09a2.92 2.92 0 0 1 .56 1.72a2.88 2.88 0 0 1-.878 2.128a2.98 2.98 0 0 1-2.048.871a2.981 2.981 0 0 1-2.514-4.719A3 3 0 0 1 16 20v-6.38a2.96 2.96 0 0 1-1.44-1.09a2.9 2.9 0 0 1-.56-1.72a2.9 2.9 0 0 1 .31-1.31l-3.9-3.9l-7.579 7.572a4 4 0 0 0-.001 5.658l10.342 10.342a4 4 0 0 0 5.656 0l10.344-10.344a4 4 0 0 0 0-5.656L18.828 2.828a4 4 0 0 0-5.656 0"/></svg>
+  )
+}
+
+function Prisma({ className }: { className?: string }) {
+  return (
+    <svg className={className} xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><title>prisma</title><path fill="#00bfa5" d="m27.777 22.617l-.459-.946L18.43 3.26a2.25 2.25 0 0 0-1.914-1.256A2 2 0 0 0 16.379 2a2.23 2.23 0 0 0-1.891 1.042L4.348 19.056a2.2 2.2 0 0 0 .025 2.417l4.957 7.488A2.34 2.34 0 0 0 11.29 30a2.4 2.4 0 0 0 .655-.092l14.387-4.149a2.32 2.32 0 0 0 1.458-1.234a2.21 2.21 0 0 0-.013-1.908m-3.538.604l-11.268 3.25l4.075-19.033l7.568 15.671l-.376.098Z"/></svg>
+  )
+}
+
+function NextJS({ className }: { className?: string }) {
+  return (
+    <svg className={className} xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128"><title>nextjs</title><circle cx="64" cy="64" r="64"/><path fill="url(#SVGlFdwveZx)" d="M106.317 112.014L49.167 38.4H38.4v51.179h8.614v-40.24l52.54 67.884a64 64 0 0 0 6.763-5.209"/><path fill="url(#SVGbF2jJbfB)" d="M81.778 38.4h8.533v51.2h-8.533z"/><defs><linearGradient id="SVGlFdwveZx" x1="109" x2="144.5" y1="116.5" y2="160.5" gradientTransform="scale(.71111)" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="SVGbF2jJbfB" x1="121" x2="120.799" y1="54" y2="106.875" gradientTransform="scale(.71111)" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs></svg>
+  )
+}
+
 export { 
   Svelte,
   ReactTS,
@@ -75,5 +99,9 @@ export {
   Cpp,
   Redis,
   Mysql,
-  EmberJS
+  EmberJS,
+  Linux,
+  Git,
+  Prisma,
+  NextJS
 }

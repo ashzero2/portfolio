@@ -12,10 +12,12 @@ export function Contact() {
           </p>
         </div>
 
-        <Button size="lg" className="gap-2">
-          <Mail className="w-4 h-4" />
-          aswinzero2@gmail.com
-        </Button>
+        <a href="mailto:aswinzero2@gmail.com">
+          <Button size="lg" className="gap-2 hover:cursor-pointer">
+            <Mail className="w-4 h-4" />
+            aswinzero2@gmail.com
+          </Button>
+        </a>
       </div>
     </section>
   )

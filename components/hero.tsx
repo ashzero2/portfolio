@@ -38,30 +38,36 @@ export function Hero() {
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4 pt-4 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-700">
-          <Button
-            size="lg"
-            className="gap-2 rounded-full shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-all"
-          >
-            <Mail className="w-4 h-4" />
-            Get in touch
-            <ArrowRight className="w-4 h-4 ml-1 opacity-50" />
-          </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="gap-2 bg-background/50 backdrop-blur-sm rounded-full hover:bg-accent/50"
-          >
-            <Github className="w-4 h-4" />
-            GitHub
-          </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="gap-2 bg-background/50 backdrop-blur-sm rounded-full hover:bg-accent/50"
-          >
-            <Linkedin className="w-4 h-4" />
-            LinkedIn
-          </Button>
+          <a href="mailto:aswinzero2@gmail.com">
+            <Button
+              size="lg"
+              className="gap-2 rounded-full shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-all"
+            >
+              <Mail className="w-4 h-4" />
+              Get in touch
+              <ArrowRight className="w-4 h-4 ml-1 opacity-50" />
+            </Button>
+          </a>
+          <a href="https://github.com/ashzero2/" target="_blank">
+            <Button
+              size="lg"
+              variant="outline"
+              className="gap-2 bg-background/50 backdrop-blur-sm rounded-full hover:text-teal-500"
+            >
+              <Github className="w-4 h-4" />
+              GitHub
+            </Button>
+          </a>
+          <a href="https://in.linkedin.com/in/rahul-aswin-r-106050295" target="_blank">
+            <Button
+              size="lg"
+              variant="outline"
+              className="gap-2 bg-background/50 backdrop-blur-sm rounded-full hover:text-teal-500"
+            >
+              <Linkedin className="w-4 h-4" />
+              LinkedIn
+            </Button>
+          </a>
         </div>
       </div>
     </section>

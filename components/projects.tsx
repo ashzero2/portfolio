@@ -4,7 +4,7 @@ import { redirect } from "next/navigation";
 
 const projects = [
   {
-    title: "Yure - (WIP)",
+    title: "Yurei - (WIP)",
     description: "Real-time monitoring daemon for servers, collects metrics, and alerts you when things start to break ",
     tech: ["Typescript", "Hono.js", "Redis"],
     link: "https://github.com/ashzero2/yurei",
@@ -16,10 +16,10 @@ const projects = [
     link: "https://github.com/ashzero2/tenshi-bot",
   },
   {
-    title: "Many more coming ... ",
-    description: "",
-    tech: [],
-    link: "#",
+    title: "Personal Portfolio",
+    description: "My personal portfolio showcasing my skills and projects. Built with Next.js and Tailwind CSS.",
+    tech: ["Next.js", "Tailwind CSS", "TypeScript"],
+    link: "https://github.com/ashzero2/portfolio",
   },
 ]
 
