@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export function Hero() {
   return (
@@ -12,7 +13,13 @@ export function Hero() {
         <div className="inline-block animate-in fade-in zoom-in duration-700">
           <div className="relative w-24 h-24 mx-auto mb-6">
             <div className="absolute inset-0 rounded-full bg-primary/20 blur-xl animate-pulse" />
-            <div className="relative w-full h-full rounded-full bg-gradient-to-br from-primary to-primary/60 border-2 border-background shadow-xl" />
+            <Image
+              className="relative rounded-full border-2 border-background shadow-xl"
+              width={500}
+              height={500}
+              src="/meow.png"
+              alt="Picture of the author"
+            />
           </div>
         </div>
 
