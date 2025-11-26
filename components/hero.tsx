@@ -1,6 +1,7 @@
 import { Github, Linkedin, Mail, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import { RotatingRoles } from "./RotatingRoles"
 
 export function Hero() {
   return (
@@ -27,8 +28,8 @@ export function Hero() {
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance animate-in fade-in slide-in-from-bottom-4 duration-700 delay-150">
             Rahul Aswin
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground text-balance animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
-            Full-Stack Developer & <span className="text-primary">Software Engineer</span>
+          <p className="text-xl md:text-2xl text-muted-foreground text-balance animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300 text-primary">
+            <RotatingRoles />
           </p>
         </div>
 
